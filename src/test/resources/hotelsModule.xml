@@ -1,0 +1,12 @@
+<suite name="HotelsModule">
+	<test name="HotelSearch">
+	<parameter name="city" value="mumbai"/>
+		<classes>
+			<class name="base.Base"/>
+			<class name="testSuite.HotelSearchTest"/>
+			<class name="testSuite.HotelListTest"/>
+			<class name="testSuite.HotelDetailsTest"/>
+			<class name="testSuite.HotelReviewTest"/>
+		</classes>
+	</test>
+</suite>

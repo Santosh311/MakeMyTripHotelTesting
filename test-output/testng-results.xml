@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HotelsModule" duration-ms="485663" started-at="2021-06-22T16:20:38 IST" finished-at="2021-06-22T16:28:44 IST">
+    <groups>
+    </groups>
+    <test name="HotelSearch" duration-ms="485663" started-at="2021-06-22T16:20:38 IST" finished-at="2021-06-22T16:28:44 IST">
+      <class name="testSuite.HotelReviewTest">
+        <test-method status="PASS" signature="hotelReview()[pri:0, instance:testSuite.HotelReviewTest@e720b71]" name="hotelReview" duration-ms="83569" started-at="2021-06-22T16:27:20 IST" finished-at="2021-06-22T16:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelReview -->
+      </class> <!-- testSuite.HotelReviewTest -->
+      <class name="testSuite.HotelListTest">
+        <test-method status="PASS" signature="hotelList(java.lang.String)[pri:0, instance:testSuite.HotelListTest@612679d6]" name="hotelList" duration-ms="197839" started-at="2021-06-22T16:21:47 IST" finished-at="2021-06-22T16:25:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelList -->
+      </class> <!-- testSuite.HotelListTest -->
+      <class name="testSuite.HotelSearchTest">
+        <test-method status="PASS" signature="hotelSearch(java.lang.String)[pri:0, instance:testSuite.HotelSearchTest@1060b431]" name="hotelSearch" duration-ms="68565" started-at="2021-06-22T16:20:38 IST" finished-at="2021-06-22T16:21:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelSearch -->
+      </class> <!-- testSuite.HotelSearchTest -->
+      <class name="testSuite.HotelDetailsTest">
+        <test-method status="PASS" signature="hotelDetails(java.lang.String)[pri:0, instance:testSuite.HotelDetailsTest@11758f2a]" name="hotelDetails" duration-ms="135590" started-at="2021-06-22T16:25:04 IST" finished-at="2021-06-22T16:27:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelDetails -->
+      </class> <!-- testSuite.HotelDetailsTest -->
+      <class name="base.Base">
+        <test-method status="PASS" signature="setup()[pri:0, instance:base.Base@371a67ec]" name="setup" is-config="true" duration-ms="8223" started-at="2021-06-22T16:20:30 IST" finished-at="2021-06-22T16:20:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:base.Base@371a67ec]" name="shutdown" is-config="true" duration-ms="1820" started-at="2021-06-22T16:28:44 IST" finished-at="2021-06-22T16:28:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- base.Base -->
+    </test> <!-- HotelSearch -->
+  </suite> <!-- HotelsModule -->
+</testng-results>

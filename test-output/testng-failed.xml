@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HotelsModule]">
+  <test thread-count="5" name="HotelSearch(failed)">
+    <parameter name="city" value="mumbai"/>
+    <classes>
+      <class name="testSuite.HotelReviewTest">
+        <methods>
+          <include name="hotelReview"/>
+        </methods>
+      </class> <!-- testSuite.HotelReviewTest -->
+    </classes>
+  </test> <!-- HotelSearch(failed) -->
+</suite> <!-- Failed suite [HotelsModule] -->
